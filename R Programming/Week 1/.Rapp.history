@@ -1,0 +1,116 @@
+x <- read.csv("hw1_data.csv"")
+x <- read.csv("hw1_data.csv")
+x <- read.csv("hw1_data.csv")
+x
+x[47]
+x[1,47]
+x["Ozone",47]
+x[47,1]
+x[1:2,]
+nrows[x]
+row.names[x]
+nrow(x)
+ncol(x)
+x[152:153,]
+x[47,1]
+bad <- is.na(x)
+bad
+bad(,1)
+bad[,1]
+x[bad[,1]]
+sum bad[,1]
+bad[bad[,1] = TRUE]
+bad[bad[,1] = "TRUE"]
+bad[bad[,1] >0]
+sum(bad[,1])
+mean(x[,1], na.rm=False)
+mean(x[,1], na.rm = FALSE)
+mean(x[,1], na.rm = TRUE)
+subset <- x[x[,1] > 31 and x[,4] > 90]
+subset <- x[x[,1] > 31 & x[,4] > 90]
+subset <- x[x[,1] > 31 && x[,4] > 90]
+mean (subset[,2])
+subset
+x
+subset <- x[x[,1] > 31]
+subset <- x[x[1:153,1] > 31]
+ncols(n)
+ncol(x)
+smallset <- x[x[,1] > 31]
+smallset <- x[x[1,] > 31]
+smallset
+x
+subset31 <- x[,1] > 31
+subset31
+subset3190 <- x[x[,1] > 31 && x[,4] > 90]
+subset3190
+subset3190 <- x[x[1:153,1] > 31 && x[1:153,4] > 90]
+subset3190
+subset3190 <- x[x[1:153,1:6] > 31 && x[1:153,1:6] > 90]
+subset3190
+subset77 <- x[x[1:153,1] > 31 && x[1:153,4] > 90]
+subset77
+subset99 <- x
+subset99
+subset999 <- x[,1] > 19
+subset999
+subset77 <- x(x[,1] > 19)
+subset77 <- dataframe(x[,1] > 19)
+subsetting <- x[x[,1] > 19, ][,1:6]]
+subsetting <- x[,1] > 19, ][,1:6]
+u <- x[,1] > 31 && x[,4] > 90
+x[u]
+u <- x[1,1:6] > 31
+x[u]
+u <- x[1:6,1] > 31
+x[u]
+x[1:6,]
+x[1:6,1] > 31
+y <- x[,1] > 31
+y
+z <- x[,1] > 31 && x[,4] > 90
+z
+z <- x[,1] > 31 && x[,4] > 50
+z
+x[z]
+z
+x[z]
+a <- x[,1] > 30
+a
+b <- x[,4] > 90
+b
+x[a,b]
+x[a]
+x[b]
+subset(x, Temp > 91 && Ozone > 30, select = Ozone:Wind )
+subset(x, Temp > 91, select = Ozone:Wind )
+subset(x, Temp > 90 && Ozone > 31, select = Ozone:Wind )
+subset(x, Temp > 90 & Ozone > 31, select = Ozone:Wind )
+mean(subset, Solar.R)
+mean(subset, 2)
+w <- subset(x, Temp > 90 & Ozone > 31, select = Ozone:Wind )
+w
+mean (w,2)
+mean(w[,2])
+r <- subset(x, Month = 6, select = Ozone:Wind)
+r
+r <- subset(x, Month = 6, )
+r
+r <- subset(x, Month == 6, )
+r
+mean(r[,5])
+mean(r[,4])
+r <- subset(x, Month == 5, )
+max(r[,1])
+max(r[,1], rm.NA = FALSE)
+max(r[,1], rm.NA = TRUE)
+maximum(r[,1])
+mean(r[,1])
+r
+mean(r[,1])
+mean(r[,1], rm.NA = FALSE)
+mean(r[,1], rm.NA = TRUE)
+mean(r[,1], na.rm=False)
+mean(r[,1], na.rm = FALSE)
+mean(r[,1], na.rm = TRUE)
+max(r[,1], na.rm = TRUE)
